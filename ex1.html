@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><link rel="stylesheet" href=ex2.css>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function formvalidation() {
+        var name=document.getElementById(name);
+        var password=document.getElementById(pass);
+        if (name.value=="")
+        {
+            alert("Name cannot be blank");
+            return failed;
+        }
+        if(Phonenumber.value=="<10")
+        {
+            alert("phone number cannot be less than 10");
+            return failed;
+        }
+    
+       
+     }
+    </script>
+    <body>
+        <H1>PEAFOOD COMPANY APPLICATION</H1>
+        <H2>REGISTRATION FORM</H2>
+        <form><FORM action="customers.php" method="post"></FORM>
+            First name<input type="text" id="fname" placeholder= "first name" required> <br>
+            Last name<input type="text" id="lname" placeholder="last name" required> <br>
+            Id number<input type="text" id="id" placeholder="id number" required> <br>
+            Phone number<input type="text" id="phone" placeholder="phone number" required> <br>
+            Password <input type="text" id="pass" placeholder="password" required> <br>
+            Confirm password <input type="text" id="cpass" placeholder="confirm password" required> <br>
+            Select Gender<br>
+            <input type="radio"name="gender"value="male">male<br>
+            <input type="radio"name="gender"value="female">female<br>
+            <input type="Submit";>
+            
+        </form>
+</body>
+</html>

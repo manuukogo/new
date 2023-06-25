@@ -1,0 +1,14 @@
+H1{
+    color:rgb(238, 14, 21);
+    background-image: image("BK602174_641251.jpg");
+    text-align: center;
+}
+body{ 
+    background-color: rgb(101, 222, 7);
+    border: 5px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    color: rgb(21, 213, 223);
+}
